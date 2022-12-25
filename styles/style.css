@@ -1,0 +1,52 @@
+body, .form-container
+{
+    background-color: #24353f;
+}
+
+body
+{
+    height: 100vh;
+}
+
+p a:hover
+{
+    color: rgb(13,202,240) !important;
+}
+
+#loginBtn:hover {
+    color: white;
+}
+
+.form-container, .hello-msg
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1)
+}
+
+input::placeholder
+{
+    color:  rgb(182, 182, 182) !important;
+}
+
+nav
+{
+    background-color: #24353f !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.invalid-ip {
+    font-size: .8rem;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+.hello-msg {
+    color: #17a2b8;
+    font-size: 2.5rem
+}
